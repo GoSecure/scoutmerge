@@ -1,5 +1,5 @@
 # ScoutMerge
-ScoutMerge is an extension for the cloud auditing tool ScoutSuite. When working with large cloud environments containing hundreds or even thousands of projects (GCP) or accounts (AWS), tools like ScoutSuite can struggle or break due to the overwhelming amount of data. ScoutMerge addresses this by allowing you to run the scout command on each project or account individually, then aggregates the results into a single text file that lists each affected project or account for each ScoutSuite finding, if any.
+ScoutMerge is an extension for the cloud auditing tool ScoutSuite. When working with large cloud environments containing hundreds or even thousands of projects (GCP) or accounts (AWS), tools like ScoutSuite can struggle or break due to the overwhelming amount of data. ScoutMerge addresses this by allowing you to run the `scout` command on each project or account individually, then aggregates the results into a single text file that lists each affected project or account for each ScoutSuite finding, if any.
 
 ### Supported Cloud Providers
 - AWS
