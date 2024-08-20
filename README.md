@@ -15,16 +15,16 @@ ScoutMerge is an extension for the cloud auditing tool ScoutSuite. When working 
 ```
 > tree -L 1
 scoutsuite_output_directory
-├── backup-us-pre
-├── backup-us-prod
-├── datalake-us-pre`
-├── datalake-us-prod
-├── command-central-us-pre
-├── command-central-us-prod
-├── failure-mb-us-pre
-├── failure-mb-us-prod
-├── compliance-dev
-└── compliance-us-prod
+├── fsociety-eu-pre
+├── fsociety-us-prod
+├── steel-mountain-us-pre
+├── steel-mountain-us-prod
+├── allsafe-us-pre
+├── allsafe-eu-prod
+├── dark-army-us-pre
+├── dark-army-us-prod
+├── ecorp-dev
+└── ecorp-us-prod
 ```
 
 ### GCP
