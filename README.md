@@ -31,7 +31,8 @@ scoutsuite_output_directory
 For GCP, the script takes a Folder ID as input, finds all projects in specified folder as well as subfolders, runs the `scout` command on each project found, then proceeds to aggregate the results into one text file.
 1. Authenticate with `gcloud`
 2. Do not set default project
-3. Run `gcp.py` with the `-f` flag for the Folder ID housing the projects in scope
+3. Run `gcp.py` with the `-f` or `-g` flag for the Folder ID housing the projects in scope or to specify an `ids.txt` file (file housing specific project IDs)
+4. You will also need to specify `--service-account <PATH to key.json>` or `--user-account` assuming you have already run `gcloud auth login`
 
 ## Feature Roadmap
 &#9745; GCP
